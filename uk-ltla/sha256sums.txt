@@ -1,0 +1,2 @@
+c2662aea49d8674cc9532f8486591c3fffd95172ed0794ff3c9095e7fe88b44e  ltla_sgtf.xlsx
+c12cd5100145e6f4b51c9a7291adc76cb5f6467ef3232064b0eed1bfc34a8ce4  ltla_daily_cases.csv
