@@ -5,6 +5,7 @@ set -eou pipefail
 do_build=1
 do_fetch=0
 do_hash=0
+do_checkhash=0
 folder="."
 
 abort() {
@@ -85,6 +86,7 @@ step at once, use 'build -u'
   -u        update sources (default is use sources already present)
   -U        update sources but do not run the build stage
   -m        save source hashes
+  -c        check source hashes
   -f FOLDER run build from FOLDER
   -h        show this help
 EOF
@@ -98,18 +100,21 @@ check_depends() {
 }
 
 
-while getopts muUhf: options; do
+while getopts cmuUhf: options; do
         case $options in
             u) do_fetch=1;;
             U) do_fetch=1;do_build=0;;
             f) folder=$OPTARG;;
             m) do_hash=1;;
+            c) do_checkhash=1;;
             h) usage;;
             *) usage; exit 1
         esac
 done
 
 pushd "$folder" || exit 1
+test $do_checkhash -eq 1 && check_hashes sha256sums.txt && popd && exit 0
+
 test -f BUILD || abort "BUILD file not found"
 unset name depends description output sources
 
