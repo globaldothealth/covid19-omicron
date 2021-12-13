@@ -1,11 +1,11 @@
 name=denmark
 sources="https://files.ssi.dk/covid19/omikron/statusrapport/rapport-omikronvarianten-11122021-uy12	file.pdf"
 tabula_source="https://github.com/tabulapdf/tabula-java/releases/download/v1.0.5/tabula-1.0.5-jar-with-dependencies.jar"
-depends="java sha256sum"
+depends="java"
 
 setup() {
     test ! -f tabula.jar && curl -L "$tabula_source" -o tabula.jar
-    sha256sum -c sha256sums.tabula.txt
+    check_hashes sha256sums.tabula.txt
 }
 
 build() {
