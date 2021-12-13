@@ -1,0 +1,5 @@
+Files: Local_Authority_Districts_(December_2017)_Boundaries_in_Great_Britain.csv
+Copyright:
+    Source: Office for National Statistics licensed under the Open Government Licence v.3.0
+    Contains OS data © Crown copyright and database right 2021
+

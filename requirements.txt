@@ -1,0 +1,3 @@
+requests
+pandas==1.3.2
+openpyxl==3.0.9

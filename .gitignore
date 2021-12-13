@@ -1,0 +1,15 @@
+*.pdf
+*.jar
+*.xlsx
+*.csv
+venv
+.venv
+.ipynb_checkpoints
+.*lock*
+tags
+!uk-ltla/Local_Authority_Districts_(December_2017)_Boundaries_in_Great_Britain.csv
+
+# output files
+!denmark/denmark.csv
+!uk-ltla/uk-ltla.csv
+!travel/travel.csv
