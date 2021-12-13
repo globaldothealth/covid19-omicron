@@ -50,10 +50,26 @@ update_timestamp() {
 update_hashes() {
     echo Saving source hashes ...
     source_files=$(echo "$sources" | awk '{print $2}' | tr '\n' ' ')
+    # sha256sum for Linux, shasum on macOS
     if (command -v sha256sum > /dev/null); then
         sha256sum $source_files > sha256sums.txt
+    elif (command -v shasum > /dev/null); then
+        shasum -a 256 $source_files > sha256sums.txt
     else
         abort "sha256sum not present, required for hashes"
+    fi
+}
+
+check_hashes() {
+    if [ -z "$1" ]; then
+        echo "check_hashes: specify filename to check against"
+    fi
+    if (command -v sha256sum > /dev/null); then
+        sha256sum -c "$1"
+    elif (command -v shasum > /dev/null); then
+        shasum -a 256 -c "$1"
+    else
+        echo Warning: skipping hash checks as no suitable command found
     fi
 }
 
