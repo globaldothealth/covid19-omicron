@@ -32,7 +32,7 @@ require_sources() {
     source_files=$(echo "$sources" | awk '{print $2}' | tr '\n' ' ')
     source_files_missing=0
     for source_file in $source_files; do
-        test -f source_file || source_files_missing=1
+        test -f $source_file || source_files_missing=1
     done
     test $source_files_missing -eq 1 && echo "Source files are missing" && fetch && do_fetch=0
 }
