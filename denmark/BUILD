@@ -5,7 +5,7 @@ depends="java sha256sum"
 
 setup() {
     test ! -f tabula.jar && curl -L "$tabula_source" -o tabula.jar
-    sha256sum -c sha256sums
+    sha256sum -c sha256sums.tabula.txt
 }
 
 build() {
