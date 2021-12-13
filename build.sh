@@ -4,6 +4,7 @@ set -eou pipefail
 
 do_build=1
 do_fetch=0
+do_hash=0
 folder="."
 
 abort() {
@@ -46,6 +47,17 @@ update_timestamp() {
     mv last_updated_temp.txt last_updated.txt
 }
 
+update_hashes() {
+    echo Saving source hashes ...
+    source_files=$(echo "$sources" | awk '{print $2}' | tr '\n' ' ')
+    if (command -v sha256sum > /dev/null); then
+        sha256sum $source_files > sha256sums.txt
+    else
+        abort "sha256sum not present, required for hashes"
+    fi
+}
+
+
 usage() {
     cat << EOF
 build.sh: Build datasets
@@ -55,7 +67,8 @@ and re-runs the build stage. To update the sources and run the build
 step at once, use 'build -u'
 
   -u        update sources (default is use sources already present)
-  -U        fetch sources but do not run the build stage
+  -U        update sources but do not run the build stage
+  -m        save source hashes
   -f FOLDER run build from FOLDER
   -h        show this help
 EOF
@@ -68,11 +81,13 @@ check_depends() {
     done
 }
 
-while getopts uUhf: options; do
+
+while getopts muUhf: options; do
         case $options in
             u) do_fetch=1;;
             U) do_fetch=1;do_build=0;;
             f) folder=$OPTARG;;
+            m) do_hash=1;;
             h) usage;;
             *) usage; exit 1
         esac
@@ -89,6 +104,7 @@ output=${output:-${name}.csv}
 require_sources
 setup
 test $do_fetch -eq 1 && fetch
+test $do_hash  -eq 1 && update_hashes
 test $do_build -eq 1 && echo Building ... && build
 update_timestamp
 popd || exit 1
