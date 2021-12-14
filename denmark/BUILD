@@ -1,6 +1,6 @@
 name=denmark
 description="Statens Serum Institut dataset on daily Omicron cases in Denmark"
-sources="https://files.ssi.dk/covid19/omikron/statusrapport/rapport-omikronvarianten-11122021-uy12	file.pdf"
+sources="https://files.ssi.dk/covid19/podepind-sekventering/variant-pcr-test-december2021/opgoerelse-variantpcr-covid19-14122021-fo45  file.pdf"
 tabula_source="https://github.com/tabulapdf/tabula-java/releases/download/v1.0.5/tabula-1.0.5-jar-with-dependencies.jar"
 depends="java"
 
@@ -11,16 +11,26 @@ setup() {
 
 build() {
     # table header
-    echo -e "date,cases,omicron_cases,omicron_percent" > "$output"
-    # drop footnotes on third page
+    echo -e "date,positive_pcr,confirmed_omicron,inconclusive,other_variants,omicron_percent" > "$output"
     # tabula is confused by the commas, so output to TSV and convert
-    java -jar tabula.jar -p 3 file.pdf --format TSV -a %0,0,80,80 | \
-    # cut off header
-        tail -n +6 | \
-    # remove lines upto 19 cases (marks start of table)
-    # remove lines with Data pending
-    # remove commas in numbers
-        sed '1,/^19 cases/d;/Data pending/d;s/,//g;s/ /,/g;s/\t/,/g' | \
-    # cut off footer
-        head -n -2 >> "$output"
+    java -jar tabula.jar file.pdf --format TSV | \
+    # remove lines upto Prøvedato (marks start of table)
+    # replace month names with numbers
+    sed '1,/^Prøvedato/d
+    s/\./0/g  # pending . -> 0
+    s/,/./g  # commas in floats -> period
+    s/ /,/g  # change back from space separated
+    s/JAN/-01-/g
+    s/FEB/-02-/g
+    s/MAR/-03-/g
+    s/APR/-04-/g
+    s/MAY/-05-/g
+    s/JUN/-06-/g
+    s/JUL/-07-/g
+    s/AUG/-08-/g
+    s/SEP/-09-/g
+    s/OCT/-10-/g
+    s/NOV/-11-/g
+    s/DEC/-12-/g
+    ' >> "$output"
 }
