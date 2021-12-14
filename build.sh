@@ -6,7 +6,7 @@ do_build=1
 do_fetch=0
 do_hash=0
 do_checkhash=0
-do_tests=1
+do_tests=0
 folder="."
 
 abort() {
