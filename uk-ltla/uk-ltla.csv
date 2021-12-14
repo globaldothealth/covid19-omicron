@@ -108,7 +108,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-01,Huntingdonshire,East of England,0,0,0,727.0,-0.22466999,52.35316849
 2021-11-01,Hyndburn,North West,0,0,0,256.0,-2.38964009,53.75648117
 2021-11-01,Ipswich,East of England,0,0,0,710.0,1.16326702,52.05791855
-2021-11-01,Islington,London,0,0,0,511.0,-0.10992,51.54547882
+2021-11-01,Islington,London,0,0,0,510.0,-0.10992,51.54547882
 2021-11-01,Kensington and Chelsea,London,0,0,0,350.0,-0.18976,51.49644089
 2021-11-01,King's Lynn and West Norfolk,East of England,0,0,0,726.0,0.53325802,52.71282959
 2021-11-01,"Kingston upon Hull, City of",Yorkshire and Humber,0,0,0,1023.0,-0.30379999,53.76979065
@@ -184,7 +184,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-01,Salford,North West,0,0,0,793.0,-2.38485003,53.47927094
 2021-11-01,Sandwell,West Midlands,0,0,0,1071.0,-2.00770998,52.51477051
 2021-11-01,Sedgemoor,South West,0,0,0,575.0,-2.88250995,51.19184875
-2021-11-01,Sefton,North West,0,0,0,1215.0,-2.99203992,53.48210144
+2021-11-01,Sefton,North West,0,0,0,1216.0,-2.99203992,53.48210144
 2021-11-01,Sevenoaks,South East,0,0,0,553.0,0.188936,51.27563095
 2021-11-01,Sheffield,Yorkshire and Humber,0,0,0,2227.0,-1.54253995,53.40357971
 2021-11-01,Shropshire,West Midlands,0,0,0,1282.0,-2.73667002,52.6221199
@@ -283,7 +283,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-08,Birmingham,West Midlands,0,2,2,2861.0,-1.88141,52.48403931
 2021-11-08,Blackburn with Darwen,North West,0,0,0,428.0,-2.46359992,53.70080185
 2021-11-08,Blackpool,North West,0,0,0,477.0,-3.02284002,53.8216095
-2021-11-08,Bolton,North West,0,0,0,847.0,-2.47952008,53.58449173
+2021-11-08,Bolton,North West,0,0,0,848.0,-2.47952008,53.58449173
 2021-11-08,Boston,East Midlands,0,3,3,234.0,-0.11218,52.97793961
 2021-11-08,"Bournemouth, Christchurch and Poole",South West,0,0,0,1913.0,,
 2021-11-08,Bracknell Forest,South East,0,0,0,447.0,-0.73363,51.41130066
@@ -422,7 +422,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-08,Northumberland,North East,0,0,0,1294.0,-2.07521009,55.30036926
 2021-11-08,Norwich,East of England,0,0,0,428.0,1.28497899,52.64012909
 2021-11-08,Nottingham,East Midlands,0,0,0,812.0,-1.16666996,52.9541893
-2021-11-08,Oldham,North West,0,0,0,578.0,-2.0527401,53.55767822
+2021-11-08,Oldham,North West,0,0,0,579.0,-2.0527401,53.55767822
 2021-11-08,Oxford,South East,0,0,0,369.0,-1.24405003,51.75357056
 2021-11-08,Pendle,North West,0,0,0,274.0,-2.18956995,53.88636017
 2021-11-08,Peterborough,East of England,0,0,0,690.0,-0.26874,52.5921402
@@ -518,7 +518,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-08,West Oxfordshire,South East,0,0,0,459.0,-1.50292003,51.83990097
 2021-11-08,West Suffolk,East of England,0,0,0,568.0,,
 2021-11-08,Westminster,London,0,0,0,526.0,-0.15295,51.51221085
-2021-11-08,Wigan,North West,0,1,1,1105.0,-2.57246995,53.51445007
+2021-11-08,Wigan,North West,0,1,1,1104.0,-2.57246995,53.51445007
 2021-11-08,Wiltshire,South West,0,0,0,2068.0,-1.92660999,51.32883072
 2021-11-08,Winchester,South East,0,0,0,490.0,-1.24392998,51.03002167
 2021-11-08,Windsor and Maidenhead,South East,0,0,0,588.0,-0.67540997,51.48033905
@@ -603,7 +603,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-15,East Hertfordshire,East of England,0,0,0,854.0,0.002739,51.86484909
 2021-11-15,East Lindsey,East Midlands,0,1,1,442.0,0.020549,53.26483154
 2021-11-15,East Riding of Yorkshire,Yorkshire and Humber,0,1,1,1645.0,-0.66202998,53.88122177
-2021-11-15,East Suffolk,East of England,0,0,0,836.0,,
+2021-11-15,East Suffolk,East of England,0,0,0,837.0,,
 2021-11-15,Eastleigh,South East,0,0,0,771.0,-1.32942998,50.94871902
 2021-11-15,Elmbridge,South East,0,0,0,899.0,-0.39441001,51.36098099
 2021-11-15,Enfield,London,0,0,0,843.0,-0.08147,51.64888
@@ -659,7 +659,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-15,Lincoln,East Midlands,0,0,0,415.0,-0.55848002,53.21921158
 2021-11-15,Liverpool,North West,0,0,0,1535.0,-2.91364002,53.40829849
 2021-11-15,Luton,East of England,0,0,0,954.0,-0.42319,51.89102173
-2021-11-15,Maidstone,South East,0,0,0,773.0,0.58406103,51.23566055
+2021-11-15,Maidstone,South East,0,0,0,774.0,0.58406103,51.23566055
 2021-11-15,Maldon,East of England,0,0,0,269.0,0.773857,51.77571106
 2021-11-15,Malvern Hills,West Midlands,0,0,0,285.0,-2.33088994,52.16757965
 2021-11-15,Manchester,North West,0,1,1,1689.0,-2.23358989,53.47008896
@@ -715,12 +715,12 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-15,Rushmoor,South East,0,0,0,478.0,-0.76806998,51.27814865
 2021-11-15,Rutland,East Midlands,0,0,0,243.0,-0.62629998,52.66764832
 2021-11-15,Ryedale,Yorkshire and Humber,0,1,1,308.0,-0.84276998,54.20021057
-2021-11-15,Salford,North West,0,0,0,902.0,-2.38485003,53.47927094
+2021-11-15,Salford,North West,0,0,0,903.0,-2.38485003,53.47927094
 2021-11-15,Sandwell,West Midlands,0,0,0,1003.0,-2.00770998,52.51477051
 2021-11-15,Sedgemoor,South West,0,0,0,613.0,-2.88250995,51.19184875
 2021-11-15,Sefton,North West,0,0,0,1151.0,-2.99203992,53.48210144
 2021-11-15,Sevenoaks,South East,0,4,4,674.0,0.188936,51.27563095
-2021-11-15,Sheffield,Yorkshire and Humber,0,0,0,1857.0,-1.54253995,53.40357971
+2021-11-15,Sheffield,Yorkshire and Humber,0,0,0,1858.0,-1.54253995,53.40357971
 2021-11-15,Shropshire,West Midlands,0,0,0,1729.0,-2.73667002,52.6221199
 2021-11-15,Slough,South East,0,0,0,568.0,-0.57617003,51.50350189
 2021-11-15,Solihull,West Midlands,0,0,0,810.0,-1.71557999,52.43099976
@@ -758,7 +758,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-15,Tandridge,South East,0,0,0,587.0,-0.04805,51.23580933
 2021-11-15,Telford and Wrekin,West Midlands,0,0,0,1007.0,-2.48940992,52.71416855
 2021-11-15,Tendring,East of England,0,0,0,671.0,1.10918295,51.85692978
-2021-11-15,Test Valley,South East,0,0,0,760.0,-1.50214005,51.13417053
+2021-11-15,Test Valley,South East,0,0,0,759.0,-1.50214005,51.13417053
 2021-11-15,Tewkesbury,South West,0,0,0,562.0,-2.19998002,51.93484879
 2021-11-15,Thanet,South East,0,0,0,517.0,1.32829797,51.35253143
 2021-11-15,Three Rivers,East of England,0,0,0,432.0,-0.45005,51.65631866
@@ -787,7 +787,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-15,Westminster,London,0,0,0,567.0,-0.15295,51.51221085
 2021-11-15,Wigan,North West,0,0,0,1353.0,-2.57246995,53.51445007
 2021-11-15,Wiltshire,South West,0,0,0,2708.0,-1.92660999,51.32883072
-2021-11-15,Winchester,South East,0,0,0,528.0,-1.24392998,51.03002167
+2021-11-15,Winchester,South East,0,0,0,529.0,-1.24392998,51.03002167
 2021-11-15,Windsor and Maidenhead,South East,0,0,0,784.0,-0.67540997,51.48033905
 2021-11-15,Wirral,North West,0,0,0,1103.0,-3.06502008,53.37453842
 2021-11-15,Woking,South East,0,0,0,429.0,-0.57981998,51.30836868
@@ -846,7 +846,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-22,Chelmsford,East of England,2,0,2,918.0,0.49116299,51.73503113
 2021-11-22,Cheltenham,South West,0,0,0,665.0,-2.07515001,51.89860916
 2021-11-22,Cherwell,South East,1,1,2,878.0,-1.28506005,51.8871994
-2021-11-22,Cheshire East,North West,0,0,0,1620.0,-2.29298997,53.1679306
+2021-11-22,Cheshire East,North West,0,0,0,1621.0,-2.29298997,53.1679306
 2021-11-22,Cheshire West and Chester,North West,0,0,0,1736.0,-2.70298004,53.1633606
 2021-11-22,Chesterfield,East Midlands,1,0,1,445.0,-1.40114999,53.25574875
 2021-11-22,Chorley,North West,0,0,0,548.0,-2.61921,53.67240143
@@ -863,10 +863,10 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-22,Doncaster,Yorkshire and Humber,0,0,0,1141.0,-1.10894001,53.52696991
 2021-11-22,Dorset,South West,0,0,0,2244.0,,
 2021-11-22,Dover,South East,0,0,0,527.0,1.27692902,51.21173859
-2021-11-22,Dudley,West Midlands,0,0,0,1485.0,-2.10171008,52.49512863
+2021-11-22,Dudley,West Midlands,0,0,0,1484.0,-2.10171008,52.49512863
 2021-11-22,Ealing,London,3,1,4,1323.0,-0.31406999,51.52442932
 2021-11-22,East Cambridgeshire,East of England,1,0,1,425.0,0.28316301,52.35787964
-2021-11-22,East Hampshire,South East,0,1,1,731.0,-0.93971002,51.05765152
+2021-11-22,East Hampshire,South East,0,1,1,732.0,-0.93971002,51.05765152
 2021-11-22,East Hertfordshire,East of England,2,0,2,915.0,0.002739,51.86484909
 2021-11-22,East Lindsey,East Midlands,0,2,2,398.0,0.020549,53.26483154
 2021-11-22,East Riding of Yorkshire,Yorkshire and Humber,0,0,0,1631.0,-0.66202998,53.88122177
@@ -893,7 +893,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-22,Hambleton,Yorkshire and Humber,0,0,0,528.0,-1.34048998,54.30871964
 2021-11-22,Hammersmith and Fulham,London,1,0,1,665.0,-0.21736,51.48736954
 2021-11-22,Harborough,East Midlands,0,0,0,525.0,-0.90228999,52.53765869
-2021-11-22,Haringey,London,2,1,3,895.0,-0.10667,51.58771133
+2021-11-22,Haringey,London,2,1,3,896.0,-0.10667,51.58771133
 2021-11-22,Harlow,East of England,0,0,0,504.0,0.103888,51.76613998
 2021-11-22,Harrogate,Yorkshire and Humber,0,0,0,836.0,-1.58160996,54.07707977
 2021-11-22,Harrow,London,1,0,1,776.0,-0.33603001,51.59466934
@@ -1031,7 +1031,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-22,Three Rivers,East of England,2,0,2,481.0,-0.45005,51.65631866
 2021-11-22,Thurrock,East of England,3,1,4,846.0,0.33490199,51.5099411
 2021-11-22,Tonbridge and Malling,South East,0,1,1,657.0,0.34930599,51.26063919
-2021-11-22,Tower Hamlets,London,1,1,2,811.0,-0.0364,51.51552963
+2021-11-22,Tower Hamlets,London,1,1,2,810.0,-0.0364,51.51552963
 2021-11-22,Trafford,North West,1,0,1,973.0,-2.36572003,53.4167099
 2021-11-22,Tunbridge Wells,South East,0,1,1,681.0,0.471632,51.10253906
 2021-11-22,Uttlesford,East of England,0,0,0,363.0,0.294485,51.93592072
@@ -1053,7 +1053,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-22,West Suffolk,East of England,0,0,0,857.0,,
 2021-11-22,Westminster,London,1,0,1,689.0,-0.15295,51.51221085
 2021-11-22,Wigan,North West,2,0,2,1303.0,-2.57246995,53.51445007
-2021-11-22,Wiltshire,South West,0,0,0,2874.0,-1.92660999,51.32883072
+2021-11-22,Wiltshire,South West,0,0,0,2875.0,-1.92660999,51.32883072
 2021-11-22,Winchester,South East,0,0,0,599.0,-1.24392998,51.03002167
 2021-11-22,Windsor and Maidenhead,South East,1,0,1,878.0,-0.67540997,51.48033905
 2021-11-22,Wirral,North West,0,0,0,1316.0,-3.06502008,53.37453842
@@ -1133,7 +1133,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-29,Dudley,West Midlands,1,2,3,1271.0,-2.10171008,52.49512863
 2021-11-29,Ealing,London,9,2,11,1384.0,-0.31406999,51.52442932
 2021-11-29,East Cambridgeshire,East of England,1,1,2,470.0,0.28316301,52.35787964
-2021-11-29,East Hampshire,South East,1,0,1,701.0,-0.93971002,51.05765152
+2021-11-29,East Hampshire,South East,1,0,1,702.0,-0.93971002,51.05765152
 2021-11-29,East Hertfordshire,East of England,4,1,5,895.0,0.002739,51.86484909
 2021-11-29,East Lindsey,East Midlands,0,1,1,429.0,0.020549,53.26483154
 2021-11-29,East Riding of Yorkshire,Yorkshire and Humber,1,0,1,1489.0,-0.66202998,53.88122177
@@ -1158,10 +1158,10 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-29,Hackney and City of London,London,10,13,23,905.0,,
 2021-11-29,Halton,North West,0,1,1,472.0,-2.68852997,53.33423996
 2021-11-29,Hambleton,Yorkshire and Humber,0,1,1,383.0,-1.34048998,54.30871964
-2021-11-29,Hammersmith and Fulham,London,3,6,9,872.0,-0.21736,51.48736954
+2021-11-29,Hammersmith and Fulham,London,3,6,9,871.0,-0.21736,51.48736954
 2021-11-29,Harborough,East Midlands,0,0,0,537.0,-0.90228999,52.53765869
-2021-11-29,Haringey,London,4,7,11,964.0,-0.10667,51.58771133
-2021-11-29,Harlow,East of England,0,2,2,459.0,0.103888,51.76613998
+2021-11-29,Haringey,London,4,7,11,965.0,-0.10667,51.58771133
+2021-11-29,Harlow,East of England,0,2,2,460.0,0.103888,51.76613998
 2021-11-29,Harrogate,Yorkshire and Humber,0,4,4,794.0,-1.58160996,54.07707977
 2021-11-29,Harrow,London,6,2,8,905.0,-0.33603001,51.59466934
 2021-11-29,Hart,South East,0,3,3,670.0,-0.88321,51.28197098
@@ -1171,8 +1171,8 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-29,Hertsmere,East of England,3,1,4,468.0,-0.26899001,51.68016815
 2021-11-29,High Peak,East Midlands,0,0,0,266.0,-1.84397995,53.38568878
 2021-11-29,Hillingdon,London,6,4,10,1133.0,-0.44182,51.53662872
-2021-11-29,Horsham,South East,4,1,5,789.0,-0.38123,51.00270844
-2021-11-29,Hounslow,London,3,4,7,1137.0,-0.37843999,51.46242905
+2021-11-29,Horsham,South East,4,1,5,790.0,-0.38123,51.00270844
+2021-11-29,Hounslow,London,3,4,7,1138.0,-0.37843999,51.46242905
 2021-11-29,Huntingdonshire,East of England,0,5,5,1069.0,-0.22466999,52.35316849
 2021-11-29,Hyndburn,North West,1,9,10,305.0,-2.38964009,53.75648117
 2021-11-29,Ipswich,East of England,1,2,3,429.0,1.16326702,52.05791855
@@ -1196,12 +1196,12 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-29,Maidstone,South East,0,3,3,980.0,0.58406103,51.23566055
 2021-11-29,Maldon,East of England,1,3,4,458.0,0.773857,51.77571106
 2021-11-29,Malvern Hills,West Midlands,1,0,1,344.0,-2.33088994,52.16757965
-2021-11-29,Manchester,North West,5,32,37,1733.0,-2.23358989,53.47008896
+2021-11-29,Manchester,North West,5,32,37,1734.0,-2.23358989,53.47008896
 2021-11-29,Mansfield,East Midlands,0,1,1,473.0,-1.17804003,53.16703033
 2021-11-29,Medway,South East,2,4,6,1578.0,0.563173,51.44770813
 2021-11-29,Melton,East Midlands,0,1,1,331.0,-0.85439998,52.80329132
 2021-11-29,Mendip,South West,1,0,1,647.0,-2.54177999,51.19475937
-2021-11-29,Merton,London,9,4,13,1007.0,-0.18866999,51.41056824
+2021-11-29,Merton,London,9,4,13,1008.0,-0.18866999,51.41056824
 2021-11-29,Mid Suffolk,East of England,0,2,2,405.0,1.09695303,52.21858978
 2021-11-29,Mid Sussex,South East,0,2,2,1294.0,-0.10272,51.05952835
 2021-11-29,Middlesbrough,North East,1,0,1,422.0,-1.21098995,54.5446701
@@ -1245,7 +1245,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-29,Rotherham,Yorkshire and Humber,1,7,8,1035.0,-1.28650999,53.3955307
 2021-11-29,Rugby,West Midlands,0,1,1,424.0,-1.31827998,52.38227844
 2021-11-29,Runnymede,South East,0,0,0,460.0,-0.53855002,51.39273071
-2021-11-29,Rushcliffe,East Midlands,0,1,1,701.0,-1.01097,52.91239929
+2021-11-29,Rushcliffe,East Midlands,0,1,1,702.0,-1.01097,52.91239929
 2021-11-29,Rushmoor,South East,1,3,4,602.0,-0.76806998,51.27814865
 2021-11-29,Rutland,East Midlands,2,1,3,284.0,-0.62629998,52.66764832
 2021-11-29,Ryedale,Yorkshire and Humber,0,0,0,255.0,-0.84276998,54.20021057
@@ -1255,7 +1255,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-29,Sefton,North West,1,7,8,1069.0,-2.99203992,53.48210144
 2021-11-29,Sevenoaks,South East,2,2,4,694.0,0.188936,51.27563095
 2021-11-29,Sheffield,Yorkshire and Humber,3,2,5,1606.0,-1.54253995,53.40357971
-2021-11-29,Shropshire,West Midlands,1,4,5,1708.0,-2.73667002,52.6221199
+2021-11-29,Shropshire,West Midlands,1,4,5,1709.0,-2.73667002,52.6221199
 2021-11-29,Slough,South East,2,2,4,628.0,-0.57617003,51.50350189
 2021-11-29,Solihull,West Midlands,0,2,2,990.0,-1.71557999,52.43099976
 2021-11-29,Somerset West and Taunton,South West,3,4,7,421.0,,
@@ -1295,7 +1295,7 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-11-29,Test Valley,South East,4,0,4,917.0,-1.50214005,51.13417053
 2021-11-29,Tewkesbury,South West,0,4,4,529.0,-2.19998002,51.93484879
 2021-11-29,Thanet,South East,1,1,2,675.0,1.32829797,51.35253143
-2021-11-29,Three Rivers,East of England,2,2,4,459.0,-0.45005,51.65631866
+2021-11-29,Three Rivers,East of England,2,2,4,458.0,-0.45005,51.65631866
 2021-11-29,Thurrock,East of England,7,10,17,1024.0,0.33490199,51.5099411
 2021-11-29,Tonbridge and Malling,South East,0,2,2,788.0,0.34930599,51.26063919
 2021-11-29,Tower Hamlets,London,6,12,18,978.0,-0.0364,51.51552963
@@ -1339,47 +1339,47 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-12-06,Arun,South East,0,0,0,1099.0,-0.64998001,50.84320831
 2021-12-06,Ashfield,East Midlands,0,1,1,531.0,-1.25422001,53.09746933
 2021-12-06,Ashford,South East,0,1,1,1061.0,0.82337397,51.13095856
-2021-12-06,Barking and Dagenham,London,0,17,17,908.0,0.12950601,51.54552078
-2021-12-06,Barnet,London,0,8,8,1876.0,-0.21821,51.61108017
+2021-12-06,Barking and Dagenham,London,0,17,17,910.0,0.12950601,51.54552078
+2021-12-06,Barnet,London,0,8,8,1878.0,-0.21821,51.61108017
 2021-12-06,Barnsley,Yorkshire and Humber,0,1,1,1007.0,-1.54925001,53.52576828
 2021-12-06,Basildon,East of England,0,5,5,1279.0,0.47505501,51.59035873
 2021-12-06,Basingstoke and Deane,South East,0,2,2,993.0,-1.22020996,51.2593689
 2021-12-06,Bassetlaw,East Midlands,0,0,0,460.0,-0.97869998,53.35604095
 2021-12-06,Bath and North East Somerset,South West,0,0,0,821.0,-2.48654008,51.35604095
-2021-12-06,Bedford,East of England,0,2,2,946.0,-0.45462999,52.19628143
-2021-12-06,Bexley,London,0,11,11,1336.0,0.146212,51.45820999
+2021-12-06,Bedford,East of England,0,2,2,945.0,-0.45462999,52.19628143
+2021-12-06,Bexley,London,0,11,11,1338.0,0.146212,51.45820999
 2021-12-06,Birmingham,West Midlands,0,3,3,3876.0,-1.88141,52.48403931
 2021-12-06,Blackburn with Darwen,North West,0,1,1,563.0,-2.46359992,53.70080185
 2021-12-06,Blackpool,North West,0,0,0,507.0,-3.02284002,53.8216095
 2021-12-06,Bolton,North West,0,11,11,956.0,-2.47952008,53.58449173
 2021-12-06,Boston,East Midlands,0,0,0,457.0,-0.11218,52.97793961
 2021-12-06,"Bournemouth, Christchurch and Poole",South West,0,0,0,2631.0,,
-2021-12-06,Bracknell Forest,South East,0,0,0,744.0,-0.73363,51.41130066
-2021-12-06,Bradford,Yorkshire and Humber,0,0,0,1650.0,-1.87389004,53.84381866
+2021-12-06,Bracknell Forest,South East,0,0,0,746.0,-0.73363,51.41130066
+2021-12-06,Bradford,Yorkshire and Humber,0,0,0,1651.0,-1.87389004,53.84381866
 2021-12-06,Braintree,East of England,0,3,3,981.0,0.57591099,51.91633987
 2021-12-06,Breckland,East of England,0,3,3,609.0,0.81871599,52.59421158
-2021-12-06,Brent,London,0,4,4,1308.0,-0.27568001,51.56441116
+2021-12-06,Brent,London,0,4,4,1306.0,-0.27568001,51.56441116
 2021-12-06,Brentwood,East of England,0,2,2,501.0,0.29009101,51.64107895
 2021-12-06,Brighton and Hove,South East,0,2,2,1827.0,-0.15079001,50.84648895
-2021-12-06,"Bristol, City of",South West,0,0,0,2074.0,-2.57742,51.47114944
-2021-12-06,Bromley,London,0,5,5,2047.0,0.039246,51.37266922
+2021-12-06,"Bristol, City of",South West,0,0,0,2076.0,-2.57742,51.47114944
+2021-12-06,Bromley,London,0,5,5,2046.0,0.039246,51.37266922
 2021-12-06,Bromsgrove,West Midlands,0,1,1,490.0,-2.0037601,52.36169052
-2021-12-06,Broxbourne,East of England,0,0,0,393.0,-0.05073,51.72079849
-2021-12-06,Broxtowe,East Midlands,0,1,1,733.0,-1.25943995,52.9720993
+2021-12-06,Broxbourne,East of England,0,0,0,394.0,-0.05073,51.72079849
+2021-12-06,Broxtowe,East Midlands,0,1,1,732.0,-1.25943995,52.9720993
 2021-12-06,Buckinghamshire,South East,0,15,15,,,
-2021-12-06,Burnley,North West,0,1,1,319.0,-2.23079991,53.7740593
-2021-12-06,Bury,North West,0,3,3,930.0,-2.30879998,53.5931015
-2021-12-06,Calderdale,Yorkshire and Humber,0,1,1,657.0,-1.96182001,53.72048187
+2021-12-06,Burnley,North West,0,1,1,320.0,-2.23079991,53.7740593
+2021-12-06,Bury,North West,0,3,3,931.0,-2.30879998,53.5931015
+2021-12-06,Calderdale,Yorkshire and Humber,0,1,1,658.0,-1.96182001,53.72048187
 2021-12-06,Cambridge,East of England,0,0,0,860.0,0.126436,52.20016861
-2021-12-06,Camden,London,0,3,3,1167.0,-0.16289,51.5430603
-2021-12-06,Canterbury,South East,0,4,4,971.0,1.09625697,51.28102875
+2021-12-06,Camden,London,0,3,3,1166.0,-0.16289,51.5430603
+2021-12-06,Canterbury,South East,0,4,4,972.0,1.09625697,51.28102875
 2021-12-06,Carlisle,North West,0,1,1,322.0,-2.80704999,54.97867966
 2021-12-06,Castle Point,East of England,0,0,0,669.0,0.58808398,51.56159973
-2021-12-06,Central Bedfordshire,East of England,0,4,4,2169.0,-0.47753999,51.99903107
+2021-12-06,Central Bedfordshire,East of England,0,4,4,2168.0,-0.47753999,51.99903107
 2021-12-06,Charnwood,East Midlands,0,2,2,911.0,-1.13694,52.73989868
 2021-12-06,Chelmsford,East of England,0,10,10,1156.0,0.49116299,51.73503113
 2021-12-06,Cheltenham,South West,0,0,0,560.0,-2.07515001,51.89860916
-2021-12-06,Cherwell,South East,0,11,11,1160.0,-1.28506005,51.8871994
+2021-12-06,Cherwell,South East,0,11,11,1161.0,-1.28506005,51.8871994
 2021-12-06,Cheshire East,North West,0,11,11,1879.0,-2.29298997,53.1679306
 2021-12-06,Cheshire West and Chester,North West,0,5,5,2072.0,-2.70298004,53.1633606
 2021-12-06,Chesterfield,East Midlands,0,0,0,445.0,-1.40114999,53.25574875
@@ -1387,64 +1387,64 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-12-06,Colchester,East of England,0,2,2,1291.0,0.85977602,51.87701035
 2021-12-06,Cornwall and Isles of Scilly,South West,0,0,0,3210.0,,
 2021-12-06,Cotswold,South West,0,0,0,483.0,-1.97059,51.77254868
-2021-12-06,Coventry,West Midlands,0,2,2,1255.0,-1.51908004,52.41423035
-2021-12-06,Craven,Yorkshire and Humber,0,0,0,275.0,-2.16167998,54.05376053
-2021-12-06,Croydon,London,0,3,3,2021.0,-0.07761,51.36597824
+2021-12-06,Coventry,West Midlands,0,2,2,1257.0,-1.51908004,52.41423035
+2021-12-06,Craven,Yorkshire and Humber,0,0,0,274.0,-2.16167998,54.05376053
+2021-12-06,Croydon,London,0,3,3,2022.0,-0.07761,51.36597824
 2021-12-06,Dacorum,East of England,0,3,3,840.0,-0.55097997,51.76845169
-2021-12-06,Dartford,South East,0,13,13,719.0,0.245276,51.43373108
+2021-12-06,Dartford,South East,0,13,13,718.0,0.245276,51.43373108
 2021-12-06,Derby,East Midlands,0,0,0,1339.0,-1.47188997,52.91463852
 2021-12-06,Derbyshire Dales,East Midlands,0,0,0,302.0,-1.70711005,53.1232605
-2021-12-06,Doncaster,Yorkshire and Humber,0,3,3,1153.0,-1.10894001,53.52696991
+2021-12-06,Doncaster,Yorkshire and Humber,0,3,3,1154.0,-1.10894001,53.52696991
 2021-12-06,Dorset,South West,0,0,0,2236.0,,
 2021-12-06,Dover,South East,0,2,2,603.0,1.27692902,51.21173859
 2021-12-06,Dudley,West Midlands,0,2,2,1352.0,-2.10171008,52.49512863
-2021-12-06,Ealing,London,0,8,8,1660.0,-0.31406999,51.52442932
+2021-12-06,Ealing,London,0,8,8,1662.0,-0.31406999,51.52442932
 2021-12-06,East Cambridgeshire,East of England,0,0,0,522.0,0.28316301,52.35787964
-2021-12-06,East Hampshire,South East,0,4,4,703.0,-0.93971002,51.05765152
+2021-12-06,East Hampshire,South East,0,4,4,704.0,-0.93971002,51.05765152
 2021-12-06,East Hertfordshire,East of England,0,6,6,842.0,0.002739,51.86484909
 2021-12-06,East Lindsey,East Midlands,0,2,2,588.0,0.020549,53.26483154
 2021-12-06,East Riding of Yorkshire,Yorkshire and Humber,0,0,0,1491.0,-0.66202998,53.88122177
 2021-12-06,East Suffolk,East of England,0,0,0,950.0,,
 2021-12-06,Eastleigh,South East,0,0,0,1001.0,-1.32942998,50.94871902
-2021-12-06,Elmbridge,South East,0,0,0,1102.0,-0.39441001,51.36098099
-2021-12-06,Enfield,London,0,14,14,1308.0,-0.08147,51.64888
+2021-12-06,Elmbridge,South East,0,0,0,1103.0,-0.39441001,51.36098099
+2021-12-06,Enfield,London,0,14,14,1310.0,-0.08147,51.64888
 2021-12-06,Epping Forest,East of England,0,5,5,701.0,0.154147,51.71279144
 2021-12-06,Epsom and Ewell,South East,0,2,2,535.0,-0.26172,51.33945084
-2021-12-06,Erewash,East Midlands,0,1,1,648.0,-1.35090005,52.9382019
+2021-12-06,Erewash,East Midlands,0,1,1,649.0,-1.35090005,52.9382019
 2021-12-06,Exeter,South West,0,0,0,853.0,-3.51372004,50.71780014
 2021-12-06,Fareham,South East,0,0,0,753.0,-1.23741996,50.85393143
 2021-12-06,Folkestone and Hythe,South East,0,1,1,671.0,,
 2021-12-06,Fylde,North West,0,1,1,260.0,-2.91901994,53.79710007
-2021-12-06,Gateshead,North East,0,1,1,796.0,-1.6868,54.93119812
+2021-12-06,Gateshead,North East,0,1,1,798.0,-1.6868,54.93119812
 2021-12-06,Gedling,East Midlands,0,2,2,699.0,-1.11907005,53.02434158
 2021-12-06,Gloucester,South West,0,2,2,998.0,-2.23263001,51.84640884
 2021-12-06,Gravesham,South East,0,2,2,613.0,0.39874399,51.39649963
 2021-12-06,Great Yarmouth,East of England,0,2,2,415.0,1.64949596,52.68439865
-2021-12-06,Greenwich,London,0,22,22,1656.0,0.050108,51.46395874
+2021-12-06,Greenwich,London,0,22,22,1657.0,0.050108,51.46395874
 2021-12-06,Guildford,South East,0,0,0,1033.0,-0.56256998,51.25365829
-2021-12-06,Hackney and City of London,London,0,5,5,1271.0,,
+2021-12-06,Hackney and City of London,London,0,5,5,1269.0,,
 2021-12-06,Halton,North West,0,5,5,663.0,-2.68852997,53.33423996
 2021-12-06,Hambleton,Yorkshire and Humber,0,0,0,328.0,-1.34048998,54.30871964
-2021-12-06,Hammersmith and Fulham,London,0,3,3,1078.0,-0.21736,51.48736954
+2021-12-06,Hammersmith and Fulham,London,0,3,3,1080.0,-0.21736,51.48736954
 2021-12-06,Harborough,East Midlands,0,1,1,700.0,-0.90228999,52.53765869
-2021-12-06,Haringey,London,0,11,11,1129.0,-0.10667,51.58771133
+2021-12-06,Haringey,London,0,11,11,1132.0,-0.10667,51.58771133
 2021-12-06,Harlow,East of England,0,0,0,594.0,0.103888,51.76613998
 2021-12-06,Harrogate,Yorkshire and Humber,0,1,1,717.0,-1.58160996,54.07707977
-2021-12-06,Harrow,London,0,1,1,996.0,-0.33603001,51.59466934
+2021-12-06,Harrow,London,0,1,1,997.0,-0.33603001,51.59466934
 2021-12-06,Hart,South East,0,1,1,854.0,-0.88321,51.28197098
 2021-12-06,Havant,South East,0,0,0,874.0,-1.00399995,50.87229919
-2021-12-06,Havering,London,0,17,17,1391.0,0.235368,51.56518936
+2021-12-06,Havering,London,0,17,17,1390.0,0.235368,51.56518936
 2021-12-06,"Herefordshire, County of",West Midlands,0,0,0,844.0,-2.73931003,52.08153915
 2021-12-06,Hertsmere,East of England,0,4,4,491.0,-0.26899001,51.68016815
 2021-12-06,High Peak,East Midlands,0,3,3,281.0,-1.84397995,53.38568878
-2021-12-06,Hillingdon,London,0,2,2,1322.0,-0.44182,51.53662872
+2021-12-06,Hillingdon,London,0,2,2,1323.0,-0.44182,51.53662872
 2021-12-06,Horsham,South East,0,0,0,746.0,-0.38123,51.00270844
-2021-12-06,Hounslow,London,0,2,2,1284.0,-0.37843999,51.46242905
+2021-12-06,Hounslow,London,0,2,2,1285.0,-0.37843999,51.46242905
 2021-12-06,Huntingdonshire,East of England,0,0,0,1310.0,-0.22466999,52.35316849
 2021-12-06,Hyndburn,North West,0,2,2,300.0,-2.38964009,53.75648117
-2021-12-06,Ipswich,East of England,0,1,1,576.0,1.16326702,52.05791855
+2021-12-06,Ipswich,East of England,0,1,1,577.0,1.16326702,52.05791855
 2021-12-06,Islington,London,0,3,3,1112.0,-0.10992,51.54547882
-2021-12-06,Kensington and Chelsea,London,0,2,2,680.0,-0.18976,51.49644089
+2021-12-06,Kensington and Chelsea,London,0,2,2,681.0,-0.18976,51.49644089
 2021-12-06,King's Lynn and West Norfolk,East of England,0,2,2,564.0,0.53325802,52.71282959
 2021-12-06,"Kingston upon Hull, City of",Yorkshire and Humber,0,2,2,1271.0,-0.30379999,53.76979065
 2021-12-06,Kingston upon Thames,London,0,4,4,1039.0,-0.28367001,51.39295959
@@ -1452,14 +1452,14 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-12-06,Knowsley,North West,0,2,2,705.0,-2.8329699,53.43788147
 2021-12-06,Lambeth,London,0,12,12,1732.0,-0.11385,51.46442032
 2021-12-06,Lancaster,North West,0,0,0,552.0,-2.66030002,54.07901001
-2021-12-06,Leeds,Yorkshire and Humber,0,2,2,2643.0,-1.50735998,53.82273102
+2021-12-06,Leeds,Yorkshire and Humber,0,2,2,2644.0,-1.50735998,53.82273102
 2021-12-06,Leicester,East Midlands,0,2,2,1422.0,-1.13039994,52.63592148
 2021-12-06,Lewes,South East,0,1,1,872.0,0.007671,50.83340836
 2021-12-06,Lewisham,London,0,13,13,1666.0,-0.01733,51.44231033
-2021-12-06,Lichfield,West Midlands,0,0,0,534.0,-1.76048994,52.69615173
-2021-12-06,Lincoln,East Midlands,0,1,1,573.0,-0.55848002,53.21921158
+2021-12-06,Lichfield,West Midlands,0,0,0,535.0,-1.76048994,52.69615173
+2021-12-06,Lincoln,East Midlands,0,1,1,572.0,-0.55848002,53.21921158
 2021-12-06,Liverpool,North West,0,9,9,2139.0,-2.91364002,53.40829849
-2021-12-06,Luton,East of England,0,11,11,1035.0,-0.42319,51.89102173
+2021-12-06,Luton,East of England,0,11,11,1036.0,-0.42319,51.89102173
 2021-12-06,Maidstone,South East,0,2,2,1137.0,0.58406103,51.23566055
 2021-12-06,Maldon,East of England,0,2,2,386.0,0.773857,51.77571106
 2021-12-06,Malvern Hills,West Midlands,0,0,0,307.0,-2.33088994,52.16757965
@@ -1468,19 +1468,19 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-12-06,Medway,South East,0,7,7,1684.0,0.563173,51.44770813
 2021-12-06,Melton,East Midlands,0,0,0,310.0,-0.85439998,52.80329132
 2021-12-06,Mendip,South West,0,0,0,686.0,-2.54177999,51.19475937
-2021-12-06,Merton,London,0,5,5,1149.0,-0.18866999,51.41056824
+2021-12-06,Merton,London,0,5,5,1148.0,-0.18866999,51.41056824
 2021-12-06,Mid Suffolk,East of England,0,0,0,432.0,1.09695303,52.21858978
 2021-12-06,Mid Sussex,South East,0,2,2,1164.0,-0.10272,51.05952835
 2021-12-06,Middlesbrough,North East,0,0,0,471.0,-1.21098995,54.5446701
 2021-12-06,Milton Keynes,East of England,0,3,3,2094.0,-0.74070001,52.07241058
 2021-12-06,Mole Valley,South East,0,1,1,642.0,-0.30603001,51.22748947
-2021-12-06,New Forest,South East,0,1,1,1055.0,-1.58936,50.85747147
+2021-12-06,New Forest,South East,0,1,1,1054.0,-1.58936,50.85747147
 2021-12-06,Newark and Sherwood,East Midlands,0,2,2,687.0,-0.94643003,53.10960007
 2021-12-06,Newcastle-under-Lyme,West Midlands,0,2,2,566.0,-2.32630992,53.00344849
 2021-12-06,Newcastle upon Tyne,North East,0,0,0,1223.0,-1.65296996,55.02101135
 2021-12-06,Newham,London,0,14,14,1409.0,0.027369,51.53131866
 2021-12-06,North East Derbyshire,East Midlands,0,0,0,493.0,-1.44253004,53.16242981
-2021-12-06,North East Lincolnshire,Yorkshire and Humber,0,0,0,950.0,-0.13926999,53.52336121
+2021-12-06,North East Lincolnshire,Yorkshire and Humber,0,0,0,951.0,-0.13926999,53.52336121
 2021-12-06,North Hertfordshire,East of England,0,2,2,845.0,-0.22314,51.95737839
 2021-12-06,North Kesteven,East Midlands,0,2,2,606.0,-0.47670001,53.08058167
 2021-12-06,North Norfolk,East of England,0,0,0,496.0,1.132195,52.83377838
@@ -1490,80 +1490,80 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-12-06,Northumberland,North East,0,0,0,1271.0,-2.07521009,55.30036926
 2021-12-06,Norwich,East of England,0,1,1,614.0,1.28497899,52.64012909
 2021-12-06,Nottingham,East Midlands,0,2,2,1563.0,-1.16666996,52.9541893
-2021-12-06,Oldham,North West,0,4,4,803.0,-2.0527401,53.55767822
-2021-12-06,Oxford,South East,0,7,7,830.0,-1.24405003,51.75357056
+2021-12-06,Oldham,North West,0,4,4,804.0,-2.0527401,53.55767822
+2021-12-06,Oxford,South East,0,7,7,831.0,-1.24405003,51.75357056
 2021-12-06,Pendle,North West,0,1,1,233.0,-2.18956995,53.88636017
 2021-12-06,Peterborough,East of England,0,2,2,998.0,-0.26874,52.5921402
 2021-12-06,Plymouth,South West,0,0,0,2297.0,-4.1129899,50.40494156
-2021-12-06,Portsmouth,South East,0,0,0,1610.0,-1.07023001,50.80804825
-2021-12-06,Preston,North West,0,1,1,538.0,-2.71816993,53.82199097
-2021-12-06,Reading,South East,0,0,0,1035.0,-0.99071002,51.45301819
-2021-12-06,Redbridge,London,0,8,8,1486.0,0.070085,51.58589172
+2021-12-06,Portsmouth,South East,0,0,0,1609.0,-1.07023001,50.80804825
+2021-12-06,Preston,North West,0,1,1,537.0,-2.71816993,53.82199097
+2021-12-06,Reading,South East,0,0,0,1034.0,-0.99071002,51.45301819
+2021-12-06,Redbridge,London,0,8,8,1487.0,0.070085,51.58589172
 2021-12-06,Redcar and Cleveland,North East,0,1,1,545.0,-1.00610995,54.56752014
 2021-12-06,Redditch,West Midlands,0,1,1,502.0,-1.94710004,52.28541183
 2021-12-06,Reigate and Banstead,South East,0,1,1,1355.0,-0.19870999,51.258461
 2021-12-06,Ribble Valley,North West,0,0,0,297.0,-2.41739988,53.92449951
-2021-12-06,Richmond upon Thames,London,0,3,3,1384.0,-0.28913999,51.44033051
+2021-12-06,Richmond upon Thames,London,0,3,3,1382.0,-0.28913999,51.44033051
 2021-12-06,Richmondshire,Yorkshire and Humber,0,3,3,253.0,-1.98552001,54.3576088
-2021-12-06,Rochdale,North West,0,1,1,1068.0,-2.14784002,53.60741043
+2021-12-06,Rochdale,North West,0,1,1,1069.0,-2.14784002,53.60741043
 2021-12-06,Rochford,East of England,0,0,0,550.0,0.68347299,51.59093094
 2021-12-06,Rossendale,North West,0,3,3,263.0,-2.26149011,53.68478012
 2021-12-06,Rother,South East,0,0,0,606.0,0.543064,50.94868088
 2021-12-06,Rotherham,Yorkshire and Humber,0,0,0,1029.0,-1.28650999,53.3955307
-2021-12-06,Rugby,West Midlands,0,1,1,609.0,-1.31827998,52.38227844
+2021-12-06,Rugby,West Midlands,0,1,1,610.0,-1.31827998,52.38227844
 2021-12-06,Runnymede,South East,0,0,0,501.0,-0.53855002,51.39273071
 2021-12-06,Rushcliffe,East Midlands,0,1,1,802.0,-1.01097,52.91239929
-2021-12-06,Rushmoor,South East,0,1,1,592.0,-0.76806998,51.27814865
+2021-12-06,Rushmoor,South East,0,1,1,591.0,-0.76806998,51.27814865
 2021-12-06,Rutland,East Midlands,0,0,0,246.0,-0.62629998,52.66764832
 2021-12-06,Ryedale,Yorkshire and Humber,0,0,0,188.0,-0.84276998,54.20021057
-2021-12-06,Salford,North West,0,12,12,1161.0,-2.38485003,53.47927094
+2021-12-06,Salford,North West,0,12,12,1163.0,-2.38485003,53.47927094
 2021-12-06,Sandwell,West Midlands,0,2,2,1198.0,-2.00770998,52.51477051
-2021-12-06,Sedgemoor,South West,0,0,0,602.0,-2.88250995,51.19184875
+2021-12-06,Sedgemoor,South West,0,0,0,601.0,-2.88250995,51.19184875
 2021-12-06,Sefton,North West,0,4,4,1229.0,-2.99203992,53.48210144
 2021-12-06,Sevenoaks,South East,0,6,6,737.0,0.188936,51.27563095
-2021-12-06,Sheffield,Yorkshire and Humber,0,2,2,1850.0,-1.54253995,53.40357971
+2021-12-06,Sheffield,Yorkshire and Humber,0,2,2,1851.0,-1.54253995,53.40357971
 2021-12-06,Shropshire,West Midlands,0,0,0,1757.0,-2.73667002,52.6221199
 2021-12-06,Slough,South East,0,1,1,828.0,-0.57617003,51.50350189
-2021-12-06,Solihull,West Midlands,0,1,1,1094.0,-1.71557999,52.43099976
+2021-12-06,Solihull,West Midlands,0,1,1,1093.0,-1.71557999,52.43099976
 2021-12-06,Somerset West and Taunton,South West,0,0,0,484.0,,
 2021-12-06,South Cambridgeshire,East of England,0,3,3,1239.0,0.091017,52.1080513
 2021-12-06,South Derbyshire,East Midlands,0,1,1,596.0,-1.53494,52.82492065
-2021-12-06,South Gloucestershire,South West,0,2,2,1845.0,-2.46921992,51.54671097
+2021-12-06,South Gloucestershire,South West,0,2,2,1843.0,-2.46921992,51.54671097
 2021-12-06,South Hams,South West,0,0,0,791.0,-3.81994009,50.37192154
 2021-12-06,South Kesteven,East Midlands,0,0,0,787.0,-0.49564999,52.84885025
 2021-12-06,South Lakeland,North West,0,0,0,344.0,-2.78108001,54.29906845
 2021-12-06,South Norfolk,East of England,0,1,1,497.0,1.37324798,52.51218033
-2021-12-06,South Oxfordshire,South East,0,1,1,1196.0,-1.07846999,51.62287903
+2021-12-06,South Oxfordshire,South East,0,1,1,1195.0,-1.07846999,51.62287903
 2021-12-06,South Ribble,North West,0,1,1,450.0,-2.72872996,53.72674942
 2021-12-06,South Somerset,South West,0,1,1,815.0,-2.7758801,50.98398972
 2021-12-06,South Staffordshire,West Midlands,0,0,0,561.0,-2.1549499,52.69691849
 2021-12-06,South Tyneside,North East,0,1,1,418.0,-1.44695997,54.96987915
 2021-12-06,Southampton,South East,0,2,2,1306.0,-1.40024996,50.92037964
 2021-12-06,Southend-on-Sea,East of England,0,7,7,1313.0,0.70690602,51.54914093
-2021-12-06,Southwark,London,0,24,24,1622.0,-0.07309,51.46588898
-2021-12-06,Spelthorne,South East,0,0,0,669.0,-0.46254,51.41551971
+2021-12-06,Southwark,London,0,24,24,1623.0,-0.07309,51.46588898
+2021-12-06,Spelthorne,South East,0,0,0,668.0,-0.46254,51.41551971
 2021-12-06,St Albans,East of England,0,9,9,943.0,-0.3407,51.77355957
 2021-12-06,St. Helens,North West,0,5,5,738.0,-2.70309997,53.45861816
 2021-12-06,Stafford,West Midlands,0,1,1,775.0,-2.1647501,52.84791946
-2021-12-06,Stevenage,East of England,0,1,1,469.0,-0.18987,51.90539169
+2021-12-06,Stevenage,East of England,0,1,1,470.0,-0.18987,51.90539169
 2021-12-06,Stockport,North West,0,17,17,1378.0,-2.12467003,53.39115906
 2021-12-06,Stoke-on-Trent,West Midlands,0,3,3,1415.0,-2.15888,53.01707077
 2021-12-06,Stratford-on-Avon,West Midlands,0,4,4,810.0,-1.63565004,52.16154099
 2021-12-06,Stroud,South West,0,0,0,594.0,-2.30819988,51.72000885
 2021-12-06,Sunderland,North East,0,1,1,927.0,-1.43343997,54.85720062
-2021-12-06,Surrey Heath,South East,0,1,1,576.0,-0.68985999,51.33610153
-2021-12-06,Sutton,London,0,4,4,1494.0,-0.17227,51.3575592
+2021-12-06,Surrey Heath,South East,0,1,1,577.0,-0.68985999,51.33610153
+2021-12-06,Sutton,London,0,4,4,1495.0,-0.17227,51.3575592
 2021-12-06,Swale,South East,0,1,1,960.0,0.77952999,51.32387161
 2021-12-06,Swindon,South West,0,3,3,760.0,-1.73367,51.57762909
 2021-12-06,Tameside,North West,0,2,2,1011.0,-2.0769999,53.47866821
 2021-12-06,Tandridge,South East,0,0,0,671.0,-0.04805,51.23580933
 2021-12-06,Telford and Wrekin,West Midlands,0,0,0,1094.0,-2.48940992,52.71416855
 2021-12-06,Tendring,East of England,0,1,1,778.0,1.10918295,51.85692978
-2021-12-06,Test Valley,South East,0,0,0,914.0,-1.50214005,51.13417053
+2021-12-06,Test Valley,South East,0,0,0,917.0,-1.50214005,51.13417053
 2021-12-06,Tewkesbury,South West,0,0,0,645.0,-2.19998002,51.93484879
 2021-12-06,Thanet,South East,0,0,0,808.0,1.32829797,51.35253143
 2021-12-06,Three Rivers,East of England,0,4,4,572.0,-0.45005,51.65631866
-2021-12-06,Thurrock,East of England,0,9,9,1209.0,0.33490199,51.5099411
+2021-12-06,Thurrock,East of England,0,9,9,1207.0,0.33490199,51.5099411
 2021-12-06,Tonbridge and Malling,South East,0,1,1,827.0,0.34930599,51.26063919
 2021-12-06,Tower Hamlets,London,0,13,13,1360.0,-0.0364,51.51552963
 2021-12-06,Trafford,North West,0,16,16,1326.0,-2.36572003,53.4167099
@@ -1571,10 +1571,10 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-12-06,Uttlesford,East of England,0,3,3,486.0,0.294485,51.93592072
 2021-12-06,Vale of White Horse,South East,0,2,2,1082.0,-1.48543,51.65443039
 2021-12-06,Wakefield,Yorkshire and Humber,0,0,0,1356.0,-1.42092001,53.65922165
-2021-12-06,Walsall,West Midlands,0,2,2,955.0,-1.97044003,52.60503006
+2021-12-06,Walsall,West Midlands,0,2,2,956.0,-1.97044003,52.60503006
 2021-12-06,Waltham Forest,London,0,8,8,1456.0,-0.01881,51.59460831
-2021-12-06,Wandsworth,London,0,6,6,1884.0,-0.20021001,51.45238876
-2021-12-06,Warrington,North West,0,2,2,1100.0,-2.56167006,53.39162827
+2021-12-06,Wandsworth,London,0,6,6,1885.0,-0.20021001,51.45238876
+2021-12-06,Warrington,North West,0,2,2,1099.0,-2.56167006,53.39162827
 2021-12-06,Warwick,West Midlands,0,2,2,657.0,-1.58369005,52.3014183
 2021-12-06,Watford,East of England,0,1,1,505.0,-0.40428999,51.67169952
 2021-12-06,Waverley,South East,0,0,0,985.0,-0.62343001,51.15686035
@@ -1585,11 +1585,11 @@ date,areaName,Region,Confirmed Omicron cases,SGTF cases,Total,newCasesBySpecimen
 2021-12-06,West Northamptonshire,East Midlands,0,26,26,,,
 2021-12-06,West Oxfordshire,South East,0,2,2,736.0,-1.50292003,51.83990097
 2021-12-06,West Suffolk,East of England,0,4,4,899.0,,
-2021-12-06,Westminster,London,0,3,3,994.0,-0.15295,51.51221085
+2021-12-06,Westminster,London,0,3,3,996.0,-0.15295,51.51221085
 2021-12-06,Wigan,North West,0,1,1,1443.0,-2.57246995,53.51445007
 2021-12-06,Wiltshire,South West,0,3,3,2617.0,-1.92660999,51.32883072
 2021-12-06,Winchester,South East,0,1,1,773.0,-1.24392998,51.03002167
-2021-12-06,Windsor and Maidenhead,South East,0,3,3,1048.0,-0.67540997,51.48033905
+2021-12-06,Windsor and Maidenhead,South East,0,3,3,1047.0,-0.67540997,51.48033905
 2021-12-06,Wirral,North West,0,0,0,1350.0,-3.06502008,53.37453842
 2021-12-06,Woking,South East,0,1,1,677.0,-0.57981998,51.30836868
 2021-12-06,Wokingham,South East,0,3,3,1100.0,-0.89934999,51.42295837
