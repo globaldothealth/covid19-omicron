@@ -40,7 +40,8 @@ require_sources() {
     for source_file in $source_files; do
         test -f $source_file || source_files_missing=1
     done
-    test $source_files_missing -eq 1 && echo "Source files are missing" && fetch && do_fetch=0
+    test $source_files_missing -eq 1 && msg "Source files are missing" && fetch && do_fetch=0
+    return 0
 }
 
 update_timestamp() {
