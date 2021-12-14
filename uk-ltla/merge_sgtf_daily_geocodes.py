@@ -45,21 +45,29 @@ def read_geocode_lookup(filename):
     )
 
 
-# read sources
-weekly_df = get_weekly_ltla_cases(DAILY_LTLA_FILE)
-weekly_sgtf_df = read_ltla_sgtf(SGTF_FILE)
+def main(daily_ltla_file=DAILY_LTLA_FILE, sgtf_file=SGTF_FILE, output=OUTPUT):
+    # read sources
+    weekly_df = get_weekly_ltla_cases(daily_ltla_file)
+    weekly_sgtf_df = read_ltla_sgtf(sgtf_file)
 
-# merge weekly SGTF data with aggregated weekly case data
-merged = weekly_sgtf_df.merge(weekly_df, on=["areaName", "date"], how="left")
+    # merge weekly SGTF data with aggregated weekly case data
+    merged = weekly_sgtf_df.merge(weekly_df, on=["areaName", "date"], how="left")
 
-# merge geocodes
-merged = merged.merge(
-    read_geocode_lookup(GEOCODE_LOOKUP_FILE), on="areaName", how="left"
-)
+    # merge geocodes
+    merged = merged.merge(
+        read_geocode_lookup(GEOCODE_LOOKUP_FILE), on="areaName", how="left"
+    )
 
-# sanity check
-if len(merged[pd.notnull(merged.newCasesBySpecimenDate)]) == 0:
-    print(merged)
-    print(MERGE_ERROR_MSG)
-    sys.exit(1)
-merged.to_csv(OUTPUT, index=False)
+    # sanity check
+    if len(merged[pd.notnull(merged.newCasesBySpecimenDate)]) == 0:
+        print(merged)
+        print(MERGE_ERROR_MSG)
+        sys.exit(1)
+    if output:
+        merged.to_csv(OUTPUT, index=False)
+    else:
+        return merged
+
+
+if __name__ == "__main__":
+    main()

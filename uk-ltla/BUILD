@@ -7,3 +7,7 @@ depends="python3"  # see requirements.txt in toplevel for python specific packag
 build() {
     python3 merge_sgtf_daily_geocodes.py
 }
+
+tests() {
+    python3 test_merge.py
+}

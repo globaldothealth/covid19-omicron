@@ -41,7 +41,7 @@ To build the datasets, you need:
 
 * A **UNIX** based system or virtual machine, such as Linux (with bash
   installed) or macOS.
-* **Python** 3.8 or later and the packages in
+* **Python** 3.9 or later and the packages in
   [requirements.txt](requirements.txt). If you have pip installed,
   then you can use
 
