@@ -102,7 +102,7 @@ EOF
 
 check_depends() {
     for dep in $depends; do
-        command -v "$dep" || abort "Requires '$dep' which is not installed, or not in PATH"
+        command -v "$dep" > /dev/null || abort "Requires '$dep' which is not installed, or not in PATH"
     done
 }
 
@@ -119,7 +119,7 @@ while getopts cmuUhf: options; do
         esac
 done
 
-pushd "$folder" || exit 1
+pushd "$folder" > /dev/null
 test $do_checkhash -eq 1 && check_hashes sha256sums.txt && popd && exit 0
 
 test -f BUILD || abort "BUILD file not found"
@@ -135,4 +135,5 @@ test $do_fetch -eq 1 && fetch
 test $do_hash  -eq 1 && update_hashes
 test $do_build -eq 1 && msg Building ... && build
 update_timestamp
-popd || exit 1
+msg "Successfully built: $output"
+popd > /dev/null
