@@ -31,6 +31,7 @@ fetch() {
 
 require_sources() {
     source_files=$(echo "$sources" | awk '{print $2}' | tr '\n' ' ')
+    test -z "$sources" && return 0 # no sources
     source_files_missing=0
     for source_file in $source_files; do
         test -f $source_file || source_files_missing=1
@@ -43,6 +44,7 @@ update_timestamp() {
         rm last_updated_temp.txt
     fi
     for i in $output; do
+        test -f "$i" || abort "Output file $i not found"
         echo -e "$(date -ur "$i" -Iseconds)\t$i" >> last_updated_temp.txt
     done
     mv last_updated_temp.txt last_updated.txt
