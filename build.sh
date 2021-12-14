@@ -9,8 +9,12 @@ do_checkhash=0
 folder="."
 
 abort() {
-    echo "$@"
+    echo ">>> ERROR: $*"
     exit 1
+}
+
+msg() {
+    echo ">>> $*"
 }
 
 setup() {
@@ -18,7 +22,7 @@ setup() {
 }
 
 fetch() {
-    echo Fetching sources ...
+    msg Fetching sources ...
     echo "$sources" | while read -r url file; do
         if [ -z "$file" ]; then
             echo "No file specified for $url"
@@ -51,7 +55,7 @@ update_timestamp() {
 }
 
 update_hashes() {
-    echo Saving source hashes ...
+    msg Saving source hashes ...
     source_files=$(echo "$sources" | awk '{print $2}' | tr '\n' ' ')
     # sha256sum for Linux, shasum on macOS
     if (command -v sha256sum > /dev/null); then
@@ -128,6 +132,6 @@ require_sources
 setup
 test $do_fetch -eq 1 && fetch
 test $do_hash  -eq 1 && update_hashes
-test $do_build -eq 1 && echo Building ... && build
+test $do_build -eq 1 && msg Building ... && build
 update_timestamp
 popd || exit 1
