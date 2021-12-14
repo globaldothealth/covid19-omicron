@@ -7,8 +7,8 @@ This repository contains datasets on reported cases with the Omicron
 
 * **[denmark](denmark)**: Statens Serum Institut dataset on daily
   Omicron cases in Denmark (counts)
-* **[travel](travel)**: Global, curated dataset of Omicron cases with
-  link to travel history (individual, geocoded)
+* **[travel](travel)**: Global, curated dataset of Omicron genomes with
+  information on travel history (individual, geocoded)
 * **[uk-ltla](uk-ltla)**: Omicron cases by UK LTLA geocoded and merged
   with case counts obtained from the UK coronavirus dashboard API
   (counts, geocoded)
