@@ -107,5 +107,10 @@ depends="python3"
 build() {
     python3 code.py
 }
+
+# unit tests to run (optional)
+# tests() {
+#     python3 test_script.py
+# }
 ```
 

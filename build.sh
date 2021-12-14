@@ -6,6 +6,7 @@ do_build=1
 do_fetch=0
 do_hash=0
 do_checkhash=0
+do_tests=1
 folder="."
 
 abort() {
@@ -18,6 +19,10 @@ msg() {
 }
 
 setup() {
+    :
+}
+
+tests() {
     :
 }
 
@@ -94,6 +99,7 @@ step at once, use 'build -u'
   -U        update sources but do not run the build stage
   -m        save source hashes
   -c        check source hashes
+  -t        run unit tests and exit
   -f FOLDER run build from FOLDER
   -h        show this help
 EOF
@@ -107,13 +113,14 @@ check_depends() {
 }
 
 
-while getopts cmuUhf: options; do
+while getopts tcmuUhf: options; do
         case $options in
             u) do_fetch=1;;
             U) do_fetch=1;do_build=0;;
             f) folder=$OPTARG;;
             m) do_hash=1;;
             c) do_checkhash=1;;
+            t) do_tests=1;;
             h) usage;;
             *) usage; exit 1
         esac
@@ -126,6 +133,7 @@ test -f BUILD || abort "BUILD file not found"
 unset name depends description output sources
 
 source ./BUILD
+test $do_tests -eq 1 && tests && exit 0
 depends=${depends:-}
 check_depends
 output=${output:-${name}.csv}
