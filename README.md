@@ -7,6 +7,8 @@ NOTE: Please check data licenses from the original sources before using these da
 
 ## Datasets
 
+* **[austria](austria)**: Austrian Agency for Health and Food Safety dataset
+  on variant numbers (counts)
 * **[denmark](denmark)**: Statens Serum Institut dataset on daily
   Omicron cases in Denmark (counts)
 * **[travel](travel)**: Global, curated dataset of Omicron genomes with
@@ -21,6 +23,7 @@ respective folder.
 Direct links to data files:
 
 ```
+https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/austria/austria.csv
 https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/denmark/denmark.csv
 https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/travel/travel.csv
 https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/uk-ltla/uk-ltla.csv
