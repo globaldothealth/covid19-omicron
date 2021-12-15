@@ -3,7 +3,7 @@
 This repository contains datasets on reported cases with the Omicron
 (B.1.1.529) variant of SARS-CoV-2 virus.
 
-NOTE: Please check data licenses from the original source before using these data.
+NOTE: Please check data licenses from the original sources before using these data.
 
 ## Datasets
 
