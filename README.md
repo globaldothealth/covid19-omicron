@@ -3,6 +3,8 @@
 This repository contains datasets on reported cases with the Omicron
 (B.1.1.529) variant of SARS-CoV-2 virus.
 
+NOTE: Please check data licenses from the original source before using these data.
+
 ## Datasets
 
 * **[denmark](denmark)**: Statens Serum Institut dataset on daily
