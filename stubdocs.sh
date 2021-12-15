@@ -20,7 +20,6 @@ set -eou pipefail
 
 cd $FOLDER
 test -f BUILD || (echo ">>> ERROR: No BUILD file found" && exit 1)
-echo here
 unset name description output depends
 source ./BUILD
 
