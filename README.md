@@ -16,6 +16,8 @@ NOTE: Please check data licenses from the original sources before using these da
 * **[uk-ltla](uk-ltla)**: Omicron cases by UK LTLA geocoded and merged
   with case counts obtained from the UK coronavirus dashboard API
   (counts, geocoded)
+* **[usa](usa)**: USA CDC dataset on estimated weighted proportions
+  of variants by jurisdiction (proportions, aggregated)
 
 Usually, the data files are named as `<folder>.csv` within the
 respective folder.
@@ -27,6 +29,7 @@ https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/austria/a
 https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/denmark/denmark.csv
 https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/travel/travel.csv
 https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/uk-ltla/uk-ltla.csv
+https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/usa/usa.csv
 ```
 
 For data dictionaries, refer to the respective folders.
