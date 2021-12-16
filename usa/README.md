@@ -22,9 +22,9 @@ All column types are strings unless stated otherwise.
   proportions of variants by jurisdiction. *Share Low* and *Share
   High* represent the lower and upper of the confidence interval.
 * **State/Jurisdiction**: Jurisdiction (state or territory)
-* **Variant**: Variant of SARS-CoV-2
+* **Variant**: Variant of SARS-CoV-2 (Pango lineage)
 * **Measure Values** (float): Measure value (weighted proportion)
   corresponding to the measure name in the first column, ranges
   between 0 and 1.
-* **Total Sequences**: Total number of sequences corresponding to
+* **Total Sequences** (int): Total number of sequences corresponding to
   this jurisdiction
