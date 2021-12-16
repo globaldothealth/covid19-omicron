@@ -1,7 +1,7 @@
 # Omicron datasets
 
-This repository contains datasets on reported cases with the Omicron
-(B.1.1.529) variant of SARS-CoV-2 virus.
+This repository contains datasets on reported cases of the SARS-CoV-2 Omicron
+(B.1.1.529) Variant of Concern.
 
 NOTE: Please check data licenses from the original sources before using these data.
 
