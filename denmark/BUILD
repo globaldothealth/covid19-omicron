@@ -1,6 +1,6 @@
 name=denmark
 description="Statens Serum Institut dataset on daily Omicron cases in Denmark"
-sources="https://files.ssi.dk/covid19/podepind-sekventering/variant-pcr-test-december2021/opgoerelse-variantpcr-covid19-16122021-gf28  file.pdf"
+sources="https://files.ssi.dk/covid19/podepind-sekventering/variant-pcr-test-december2021/opgoerelse-variantpcr-covid19-17122021-2tal  file.pdf"
 tabula_source="https://github.com/tabulapdf/tabula-java/releases/download/v1.0.5/tabula-1.0.5-jar-with-dependencies.jar"
 depends="java"
 
@@ -13,7 +13,7 @@ build() {
     # table header
     echo -e "date,positive_pcr,confirmed_omicron,inconclusive,other_variants,omicron_percent" > "$output"
     # tabula is confused by the commas, so output to TSV and convert
-    java -jar tabula.jar file.pdf --format TSV | \
+    java -jar tabula.jar file.pdf --format TSV --area %0,0,90,100 | \
     # remove lines upto Prøvedato (marks start of table)
     # replace month names with numbers
     sed '1,/^Prøvedato/d
