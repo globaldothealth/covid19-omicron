@@ -18,7 +18,7 @@ week_number_to_date() {
 
 build() {
     echo date,alpha,beta,gamma,delta,omicron,total > "$output"
-    head -n -1 Varianten_nach_KWs_2021-12-14.csv | \
+    head -n -1 data.csv | \
         tail -n +2 | \
         while IFS=';' read -r week alpha beta gamma delta omicron total; do
             echo "$(week_number_to_date 2021 ${week//\"/}),$alpha,$beta,$gamma,$delta,$omicron,$total" >> "$output"
