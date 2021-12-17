@@ -35,6 +35,8 @@ def read_ltla_sgtf(filename):
     df = pd.read_excel(filename, sheet_name=1).rename(
         columns={"LTLA": "areaName", "Specimen_Week": "date"}
     )
+    df = df[df.date != "Total"]
+    df["date"] = pd.to_datetime(df["date"])
     return df
 
 
