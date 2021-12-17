@@ -11,6 +11,7 @@ NOTE: Please check data licenses from the original sources before using these da
   on variant numbers (counts)
 * **[denmark](denmark)**: Statens Serum Institut dataset on daily
   Omicron cases in Denmark (counts)
+* **[europe](europe)**: ECDC dataset on variants (counts)
 * **[travel](travel)**: Global, curated dataset of Omicron genomes with
   information on travel history (individual, geocoded)
 * **[uk-ltla](uk-ltla)**: Omicron cases by UK LTLA geocoded and merged
@@ -27,6 +28,7 @@ Direct links to data files:
 ```
 https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/austria/austria.csv
 https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/denmark/denmark.csv
+https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/europe/europe.csv
 https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/travel/travel.csv
 https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/uk-ltla/uk-ltla.csv
 https://raw.githubusercontent.com/globaldothealth/covid19-omicron/main/usa/usa.csv
