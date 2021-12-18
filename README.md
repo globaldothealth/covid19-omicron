@@ -17,8 +17,8 @@ NOTE: Please check data licenses from the original sources before using these da
 * **[uk-ltla](uk-ltla)**: Omicron cases by UK LTLA geocoded and merged
   with case counts obtained from the UK coronavirus dashboard API
   (counts, geocoded)
-* **[usa](usa)**: USA CDC dataset on estimated weighted proportions
-  of variants by jurisdiction (proportions, aggregated)
+* **[usa](usa)**: USA CDC dataset on estimated proportions
+  of variants by HHS region and week (proportions, aggregated)
 
 Usually, the data files are named as `<folder>.csv` within the
 respective folder.
