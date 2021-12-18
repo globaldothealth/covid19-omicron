@@ -10,11 +10,13 @@ do_tests=0
 folder="."
 
 abort() {
+    test -v name && echo ">>> $name: ERROR: $*" && exit 1
     echo ">>> ERROR: $*"
     exit 1
 }
 
 msg() {
+    test -v name && echo ">>> $name: $*" && return
     echo ">>> $*"
 }
 
