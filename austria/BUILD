@@ -1,6 +1,6 @@
 name=austria
 description="Austrian Agency for Health and Food Safety dataset on variant numbers"
-sources="https://www.ages.at/fileadmin/AGES2015/Themen/Krankheitserreger_Dateien/Coronavirus/Varianten_ab_Mai/Varianten_nach_KWs_2021-12-17.csv  data.csv"
+sources="https://www.ages.at/fileadmin/AGES2015/Themen/Krankheitserreger_Dateien/Coronavirus/Varianten_ab_Mai/Varianten_nach_KWs_2021-12-20.csv  data.csv"
 
 year=2021
 week_jan1=$(date -d "$year-01-01" +'%W')
@@ -17,11 +17,12 @@ week_number_to_date() {
 }
 
 build() {
-    echo date,alpha,beta,gamma,delta,omicron,total > "$output"
+    echo week,date,alpha,beta,gamma,delta,omicron,total > "$output"
     head -n -1 data.csv | \
         tail -n +2 | \
         while IFS=';' read -r week alpha beta gamma delta omicron total; do
-            echo "$(week_number_to_date 2021 ${week//\"/}),$alpha,$beta,$gamma,$delta,$omicron,$total" >> "$output"
+            week=${week//\"/}
+            echo "$week,$(week_number_to_date 2021 $week),$alpha,$beta,$gamma,$delta,$omicron,$total" >> "$output"
         done
 }
 
