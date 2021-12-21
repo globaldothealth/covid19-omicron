@@ -6,7 +6,7 @@ https://covid19.ssi.dk/virusvarianter/delta-pcr
 
 ## Sources
 
-* https://files.ssi.dk/covid19/podepind-sekventering/variant-pcr-test-december2021/opgoerelse-variantpcr-covid19-20122021-l3h7
+* https://files.ssi.dk/covid19/podepind-sekventering/variant-pcr-test-december2021/opgoerelse-variantpcr-covid19-21122021-34jn
   (saved at file.pdf)
 
 ## Data dictionary

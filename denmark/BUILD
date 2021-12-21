@@ -1,6 +1,6 @@
 name=denmark
 description="Statens Serum Institut dataset on daily Omicron cases in Denmark"
-sources="https://files.ssi.dk/covid19/podepind-sekventering/variant-pcr-test-december2021/opgoerelse-variantpcr-covid19-20122021-l3h7  file.pdf"
+sources="https://files.ssi.dk/covid19/podepind-sekventering/variant-pcr-test-december2021/opgoerelse-variantpcr-covid19-21122021-34jn  file.pdf"
 tabula_source="https://github.com/tabulapdf/tabula-java/releases/download/v1.0.5/tabula-1.0.5-jar-with-dependencies.jar"
 depends="java"
 
