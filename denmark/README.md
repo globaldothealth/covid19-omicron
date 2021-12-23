@@ -6,18 +6,19 @@ https://covid19.ssi.dk/virusvarianter/delta-pcr
 
 ## Sources
 
-* https://files.ssi.dk/covid19/podepind-sekventering/variant-pcr-test-december2021/opgoerelse-variantpcr-covid19-21122021-34jn
+* https://files.ssi.dk/covid19/podepind-sekventering/variant-pcr-test-december2021/opgoerelse-variantpcr-covid19-23122021-9kkea
   (saved at file.pdf)
 
 ## Data dictionary
 
 * **date** (date in DD-MM-YYYY): Date corresponding to case counts
+* **total_positive_pcr** (int): Total number of positive PCR cases on this date
 * **positive_pcr** (int): Positive PCR tests where Variant PCR
-  analysis has been performed
-* **confirmed_omicron** (int): Confirmed cases of Omicron
+  analysis has been performed by Testcenter Danmark (TCDK)
+* **other_variants** (int): Number of PCR tests corresponding to variants
+  variants other than Omicron
 * **inconclusive** (int): Number of PCR tests that were inconclusive
   with respect to variant identification
-* **other_variants** (int): Number of PCR tests that corresponded to
-  variants other than Omicron
+* **confirmed_omicron** (int): Confirmed cases of Omicron
 * **omicron_percent** (float): Percentage of *confirmed_omicron*
   within *positive_pcr*
