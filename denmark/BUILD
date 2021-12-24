@@ -1,6 +1,6 @@
 name=denmark
 description="Statens Serum Institut dataset on daily Omicron cases in Denmark"
-sources="https://files.ssi.dk/covid19/podepind-sekventering/variant-pcr-test-december2021/opgoerelse-variantpcr-covid19-23122021-9kke  file.pdf"
+sources="https://files.ssi.dk/covid19/podepind-sekventering/variant-pcr-test-december2021/opgoerelse-variantpcr-covid19-24122021-j2l4  file.pdf"
 tabula_source="https://github.com/tabulapdf/tabula-java/releases/download/v1.0.5/tabula-1.0.5-jar-with-dependencies.jar"
 depends="java"
 
@@ -17,7 +17,8 @@ build() {
     # remove lines upto proevedato (marks start of table)
     # replace month names with numbers
     sed '1,/^proevedato/d
-    s/ /,/g  # change back from space separated
+    s/ /,/g  # change back from space/tab separated
+    s/\t/,/g
     s/JAN/-01-/g
     s/FEB/-02-/g
     s/MAR/-03-/g
