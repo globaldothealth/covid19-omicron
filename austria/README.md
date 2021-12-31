@@ -7,7 +7,7 @@ https://www.ages.at/en/topics/pathogenic-organism/coronavirus/sars-cov-2-variant
 
 ## Sources
 
-* https://www.ages.at/fileadmin/AGES2015/Themen/Krankheitserreger_Dateien/Coronavirus/Varianten_ab_Mai/Varianten_nach_KWs_2021-12-23.csv
+* https://www.ages.at/fileadmin/AGES2015/Themen/Krankheitserreger_Dateien/Coronavirus/Varianten_ab_Mai/Varianten_nach_KWs_2021-12-30.csv
   (saved at data.csv)
 
 ## Data dictionary
