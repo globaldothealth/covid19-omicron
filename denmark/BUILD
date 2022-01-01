@@ -1,6 +1,6 @@
 name=denmark
 description="Statens Serum Institut dataset on daily Omicron cases in Denmark"
-sources="https://files.ssi.dk/covid19/podepind-sekventering/variant-pcr-test-december2021/opgoerelse-variantpcr-covid19-31122021-n7y6  file.pdf"
+sources="https://files.ssi.dk/covid19/podepind-sekventering/variant-pcr-test-december2021/opgoerelse-variantpcr-covid19-01012022-cf33  file.pdf"
 tabula_source="https://github.com/tabulapdf/tabula-java/releases/download/v1.0.5/tabula-1.0.5-jar-with-dependencies.jar"
 depends="java"
 
@@ -9,14 +9,15 @@ setup() {
     check_hashes sha256sums.tabula.txt
 }
 
-build() {
-    # table header
-    echo -e "date,total_positive_pcr,positive_pcr,other_variants,inconclusive,confirmed_omicron,omicron_percent" > "$output"
+data_page() {
+    local page
+    page="${1:-1}"
     # tabula is confused by the commas, so output to TSV and convert
-    java -jar tabula.jar file.pdf --format TSV --area %0,0,99,100 | \
+    java -jar tabula.jar file.pdf --format TSV  --pages=$page | \
     # remove lines upto proevedato (marks start of table)
     # replace month names with numbers
     sed '1,/^proevedato/d
+    s/[[:space:]]*$//g  # remove trailing whitespace
     s/ /,/g  # change back from space/tab separated
     s/\t/,/g
     s/JAN/-01-/g
@@ -32,5 +33,13 @@ build() {
     s/NOV/-11-/g
     s/DEC/-12-/g
     s/,\./,/g  # remove pending .
-    ' >> "$output"
+    '
+}
+
+
+build() {
+    # table header
+    echo -e "date,total_positive_pcr,positive_pcr,other_variants,inconclusive,confirmed_omicron,omicron_percent" > "$output"
+    data_page 1 >> "$output"
+    data_page 2 >> "$output"
 }
