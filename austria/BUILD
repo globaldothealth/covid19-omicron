@@ -1,6 +1,6 @@
 name=austria
 description="Austrian Agency for Health and Food Safety dataset on variant numbers"
-sources="https://www.ages.at/fileadmin/AGES2015/Themen/Krankheitserreger_Dateien/Coronavirus/Varianten_ab_Mai/Varianten_nach_KWs_2022-01-07.csv  data.csv"
+sources="https://www.ages.at/fileadmin/AGES2015/Themen/Krankheitserreger_Dateien/Coronavirus/Varianten_ab_Mai/Varianten_nach_KWs_2022-01-10.csv  data.csv"
 
 week_number_to_date() {
     IFS='-' read -r year week_number <<< "$1"
