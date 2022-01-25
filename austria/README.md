@@ -7,7 +7,7 @@ https://www.ages.at/en/topics/pathogenic-organism/coronavirus/sars-cov-2-variant
 
 ## Sources
 
-* https://www.ages.at/fileadmin/AGES2015/Themen/Krankheitserreger_Dateien/Coronavirus/Varianten_ab_Mai/Varianten_nach_KWs_2022-01-14.csv
+* https://www.ages.at/fileadmin/AGES2015/Themen/Krankheitserreger_Dateien/Coronavirus/Varianten_ab_Mai/Varianten_nach_KWs_2022-01-21.csv
   (saved at data.csv)
 
 ## Data dictionary
@@ -15,7 +15,6 @@ https://www.ages.at/en/topics/pathogenic-organism/coronavirus/sars-cov-2-variant
 All column types are integers unless stated otherwise.
 
 * **year_week** (string): yyyy-Wnn year and week corresponding to the data
-* **date** (date in YYYY-MM-DD): Monday corresponding to *year_week*
 * **alpha**: Number of cases with the B.1.1.7 (Alpha) variant
 * **beta**: Number of cases with the B.1.351 (Beta) variant
 * **gamma**: Number of cases with the P.1 (Gamma) variant
